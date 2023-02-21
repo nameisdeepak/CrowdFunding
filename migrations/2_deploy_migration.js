@@ -1,5 +1,6 @@
-const Crowdfunding = artifacts.require("Crowdfunding");
+const CrowdFund = artifacts.require("CrowdFund");
 
 module.exports = function (deployer) {
-  deployer.deploy(Crowdfunding);
+  deployer.deploy(CrowdFund);
+
 };
